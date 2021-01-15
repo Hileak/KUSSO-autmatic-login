@@ -13,7 +13,7 @@ if option_key =="oth":
 
 ###設定関連###
 #chromedriverのPATH
-driver = webdriver.Chrome(r"C:\Users\shin_\work/chromedriver.exe")
+driver = webdriver.Chrome(r"chromedriverの保存ディレクトリ/chromedriver.exe")
 #url指定
 url_kusso="https://acanthus.cis.kanazawa-u.ac.jp/"
 url_acanrhus_top="https://acanthus.cis.kanazawa-u.ac.jp/base/top/"
@@ -23,8 +23,8 @@ url_message ="https://acanthus.cis.kanazawa-u.ac.jp/base/message/index"
 
 #ログインIDとPW
 #kusso_id.txtにIDを、kusso_pass.txtにパスワードを保存してください。
-path_id =r"C:\Users\shin_\work/kusso_id.txt"
-path_pass=r"C:\Users\shin_\work/kusso_pass.txt"
+path_id =r"kusso_id.txtの保存ディレクトリ/kusso_id.txt"
+path_pass=r"kusso_pass.txtの保存ディレクトリ/kusso_pass.txt"
 f_id = open(path_id)
 f_pass = open(path_pass)
 userid = f_id.readline()
