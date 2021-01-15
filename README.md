@@ -1,4 +1,4 @@
-# KUSSO-login-atmaiton
+# KUSSO-login-autmation
 金沢大学アカンサスポータルへのログインを自動化するプログラムです
 動作にはpython, selenium, Chrome Driverが必要です。 
 詳しくは下記の記事をご覧ください。
