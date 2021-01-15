@@ -1,10 +1,11 @@
 # KUSSO-login-autmation
 
 (概要)
-金沢大学アカンサスポータルへのログインを自動化するプログラムです。
+金沢大学アカンサスポータルへのログインとその後のページ移動を自動化するプログラムです。
 動作にはpython, selenium, Chrome Driverが必要です。 
 詳しくは下記の記事をご覧ください。
 https://qiita.com/Hailyy/private/b07ddb5527ada9e9e4a4
+ターミナルから入力された文字により、ログインした後の処理が変化します。
 
 (ID,パスワードについて)
 ID用のファイル 「kusso_id.txt」
